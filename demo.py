@@ -1,21 +1,55 @@
-# 1. **append(x)**: Adds an element x to the end of the list.
-# list methods
-# 2. **extend(iterable)**: Extends the list by appending elements from the iterable.
+# Certainly! Strings in Python are immutable sequences of characters, and Python provides various built-in methods to manipulate and work with strings. Here are some commonly used methods of the string class in Python:
 #
-# 3. **insert(i, x)**: Inserts an element x at the specified index i.
+# 1. **capitalize()**: Returns a copy of the string with the first character capitalized and the rest lowercase.
 #
-# 4. **remove(x)**: Removes the first occurrence of element x from the list.
+# 2. **casefold()**: Returns a lowercase version of the string. It is similar to lower(), but more aggressive in converting characters to lowercase.
 #
-# 5. **pop([i])**: Removes and returns the element at index i. If i is not provided, removes and returns the last element.
+# 3. **center(width[, fillchar])**: Returns a centered string of length width. If fillchar is provided, it fills the remaining space with it.
 #
-# 6. **clear()**: Removes all elements from the list.
+# 4. **count(sub[, start[, end]])**: Returns the number of occurrences of substring sub in the string. Start and end parameters can be used to specify the search range.
 #
-# 7. **index(x[, start[, end]])**: Returns the index of the first occurrence of element x in the list. Optionally, start and end parameters can be used to specify the search range.
+# 5. **encode(encoding="utf-8", errors="strict")**: Returns an encoded version of the string using the specified encoding.
 #
-# 8. **count(x)**: Returns the number of occurrences of element x in the list.
+# 6. **endswith(suffix[, start[, end]])**: Returns True if the string ends with the specified suffix, otherwise False.
 #
-# 9. **sort(key=None, reverse=False)**: Sorts the elements of the list in place. The key parameter specifies a function to be called on each element for sorting, and reverse specifies whether to sort in descending order.
+# 7. **find(sub[, start[, end]])**: Returns the lowest index of the substring sub in the string. Returns -1 if sub is not found.
 #
-# 10. **reverse()**: Reverses the elements of the list in place.
+# 8. **format(*args, **kwargs)**: Formats the string using the placeholders and values provided as arguments.
 #
-# 11. **copy()**: Returns a shallow copy of the list.
+# 9. **index(sub[, start[, end]])**: Like find(), but raises ValueError if the substring is not found.
+#
+# 10. **isalnum()**: Returns True if all characters in the string are alphanumeric (letters or numbers), otherwise False.
+#
+# 11. **isalpha()**: Returns True if all characters in the string are alphabetic (letters), otherwise False.
+#
+# 12. **isdigit()**: Returns True if all characters in the string are digits, otherwise False.
+#
+# 13. **islower()**: Returns True if all characters in the string are lowercase, otherwise False.
+#
+# 14. **isspace()**: Returns True if all characters in the string are whitespace, otherwise False.
+#
+# 15. **istitle()**: Returns True if the string is titlecased (all words start with uppercase and the rest are lowercase), otherwise False.
+#
+# 16. **isupper()**: Returns True if all characters in the string are uppercase, otherwise False.
+#
+# 17. **join(iterable)**: Joins the elements of the iterable (such as a list) with the string as a separator.
+#
+# 18. **lower()**: Returns a copy of the string with all characters converted to lowercase.
+#
+# 19. **upper()**: Returns a copy of the string with all characters converted to uppercase.
+#
+# 20. **strip([chars])**: Returns a copy of the string with leading and trailing characters removed. If chars is provided, it specifies the characters to be removed.
+#
+# 21. **replace(old, new[, count])**: Returns a copy of the string with occurrences of substring old replaced by new. If count is provided, only the first count occurrences are replaced.
+#
+# 22. **split(sep=None, maxsplit=-1)**: Splits the string into a list of substrings using the specified separator sep. maxsplit specifies the maximum number of splits.
+#
+# 23. **startswith(prefix[, start[, end]])**: Returns True if the string starts with the specified prefix, otherwise False.
+#
+# 24. **title()**: Returns a titlecased version of the string (words start with uppercase characters, all remaining cased characters are lowercase).
+#
+# 25. **translate(table)**: Returns a copy of the string where each character has been mapped through the given translation table.
+#
+# 26. **zfill(width)**: Returns a copy of the string padded with zeros on the left to make a string of length width.
+#
+# These are just some of the methods available for manipulating strings in Python. Each method serves a specific purpose and can be used according to the requirements of your program.
