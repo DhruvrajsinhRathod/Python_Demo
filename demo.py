@@ -1,4 +1,4 @@
-# import math
-# print(dir(math))
-from math import pi as paaay
-print(paaay)
+def print_sum(first, second):
+    print(first + second)
+
+print_sum(1,2)
