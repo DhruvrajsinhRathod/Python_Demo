@@ -1,12 +1,9 @@
-name = input("What is your name : ")
-age = input(name + ", What is your age : ")
-age = int(age)
+i = 1
+while i <= 5:
+    print(i * "0")
+    i = i + 1
 
-if age>=18:
-    print(name + ", You are adult!")
-
-elif age<18 and age>3:
-    print(name + ", Focus on studies!")
-
-else:
-    print(name + ", Wait for few more years!")
+x = 5
+while x >= 0:
+    print(x * "x")
+    x = x - 1
