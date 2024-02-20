@@ -1,5 +1,4 @@
-first = input("Enter your first number : ")
-second = input("Enter your second number : ")
+name = "Dhruvrajsinh Rathod"
 
-sum = int(first) + int(second)
-print(sum)
+newName = name.upper()
+print(newName)
