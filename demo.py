@@ -1,9 +1,2 @@
-i = 1
-while i <= 5:
-    print(i * "0")
-    i = i + 1
-
-x = 5
-while x >= 0:
-    print(x * "x")
-    x = x - 1
+for i in range(5):
+    print(i+1)
