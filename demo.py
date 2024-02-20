@@ -1,5 +1,4 @@
-# Certainly! Strings in Python are immutable sequences of characters, and Python provides various built-in methods to manipulate and work with strings. Here are some commonly used methods of the string class in Python:
-#
+# String methods
 # 1. **capitalize()**: Returns a copy of the string with the first character capitalized and the rest lowercase.
 #
 # 2. **casefold()**: Returns a lowercase version of the string. It is similar to lower(), but more aggressive in converting characters to lowercase.
