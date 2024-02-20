@@ -1,4 +1,7 @@
-name = "Dhruvrajsinh Rathod"
-
-newName = name.upper()
-print(newName)
+print(1+2)
+print(1-2)
+print(1*2)
+print(4/2)
+print(3//2)
+print(10%2)
+print(5**2)
